@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="form">
+        <p>Valor do Produto:</p><br>
+        <input type="text" id="valorProduto">
+        <p>Condição de Pgamento:</p><br>
+        <select id="condicaoPagamento">
+            <option value="1">À vista com 10% de desconto</option>
+            <option value="2">Cartão 5% de desconto</option>
+            <option value="3">Parcelado 10% de aumento</option>
+        </select>
+        <br>
+        <p>Valor real do produto</p><input type="text" id="valorReal" readonly><br>
+        <p>Valor total a pagar</p><input type="text" id="valorTotal" readonly><br>
+        <button type="button" value="calcular" id="botao">Calcular</button>
+    </form>
+    <script src="exercicio16.js"></script>
+</body>
+</html>
